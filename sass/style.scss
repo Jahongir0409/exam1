@@ -1,0 +1,43 @@
+@use '_header';
+@use '_first';
+@use '_admin';
+// @use '_footer';
+// @use '_responsive';
+ 
+
+
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  -webkit-box-sizing:inherit;
+          box-sizing:inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4A4A4A;
+}
+.container {
+  width: 1250px;
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+ 
+}
+.item {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+} 
